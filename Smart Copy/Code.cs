@@ -12,7 +12,7 @@ namespace Smart_Copy
         private String element_2;
         //private String element_3;
         //private String element_4;
-        private String raw;
+        private String raw; 
 
         //Output Operation
         private int clicked = 0;

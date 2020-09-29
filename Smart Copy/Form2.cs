@@ -85,9 +85,5 @@ namespace Smart_Copy
             set { this.data_list = value; }
         }
 
-        private void text1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
