@@ -28,106 +28,56 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.sasaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.sasasToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.asasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sasaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sasasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sasasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.sasaToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStrip1.SuspendLayout();
-            this.contextMenuStrip2.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // pictureBox1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1, 1);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(212, 68);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "COPY";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(61, 44);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // contextMenuStrip1
+            // pictureBox2
             // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sasaToolStripMenuItem1,
-            this.sasasToolStripMenuItem2});
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(113, 52);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(130, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(42, 44);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
-            // sasaToolStripMenuItem1
+            // pictureBox3
             // 
-            this.sasaToolStripMenuItem1.Name = "sasaToolStripMenuItem1";
-            this.sasaToolStripMenuItem1.Size = new System.Drawing.Size(112, 24);
-            this.sasaToolStripMenuItem1.Text = "sasa";
-            // 
-            // sasasToolStripMenuItem2
-            // 
-            this.sasasToolStripMenuItem2.Name = "sasasToolStripMenuItem2";
-            this.sasasToolStripMenuItem2.Size = new System.Drawing.Size(112, 24);
-            this.sasasToolStripMenuItem2.Text = "sasas";
-            // 
-            // contextMenuStrip2
-            // 
-            this.contextMenuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.asasToolStripMenuItem,
-            this.sasaToolStripMenuItem});
-            this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(107, 52);
-            // 
-            // asasToolStripMenuItem
-            // 
-            this.asasToolStripMenuItem.Name = "asasToolStripMenuItem";
-            this.asasToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
-            this.asasToolStripMenuItem.Text = "asas";
-            // 
-            // sasaToolStripMenuItem
-            // 
-            this.sasaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sasasToolStripMenuItem,
-            this.sasasToolStripMenuItem1});
-            this.sasaToolStripMenuItem.Name = "sasaToolStripMenuItem";
-            this.sasaToolStripMenuItem.Size = new System.Drawing.Size(106, 24);
-            this.sasaToolStripMenuItem.Text = "sasa";
-            // 
-            // sasasToolStripMenuItem
-            // 
-            this.sasasToolStripMenuItem.Name = "sasasToolStripMenuItem";
-            this.sasasToolStripMenuItem.Size = new System.Drawing.Size(126, 26);
-            this.sasasToolStripMenuItem.Text = "sasas";
-            // 
-            // sasasToolStripMenuItem1
-            // 
-            this.sasasToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sasaToolStripMenuItem2});
-            this.sasasToolStripMenuItem1.Name = "sasasToolStripMenuItem1";
-            this.sasasToolStripMenuItem1.Size = new System.Drawing.Size(126, 26);
-            this.sasasToolStripMenuItem1.Text = "sasas";
-            // 
-            // sasaToolStripMenuItem2
-            // 
-            this.sasaToolStripMenuItem2.Name = "sasaToolStripMenuItem2";
-            this.sasaToolStripMenuItem2.Size = new System.Drawing.Size(120, 26);
-            this.sasaToolStripMenuItem2.Text = "sasa";
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.InitialImage")));
+            this.pictureBox3.Location = new System.Drawing.Point(79, 2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 46);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(219, 78);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.ClientSize = new System.Drawing.Size(175, 50);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Location = new System.Drawing.Point(1000, 50);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -135,26 +85,19 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-            this.Text = "Form3";
             this.TopMost = true;
             this.TransparencyKey = System.Drawing.Color.Red;
-            this.contextMenuStrip1.ResumeLayout(false);
-            this.contextMenuStrip2.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem sasaToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem sasasToolStripMenuItem2;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem asasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sasaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sasasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sasasToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem sasaToolStripMenuItem2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

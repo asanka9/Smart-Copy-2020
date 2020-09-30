@@ -99,7 +99,6 @@
             this.text1.Name = "text1";
             this.text1.Size = new System.Drawing.Size(1104, 520);
             this.text1.TabIndex = 17;
-            this.text1.Load += new System.EventHandler(this.text1_Load);
             // 
             // hand1
             // 
@@ -138,7 +137,6 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.fileSystemWatcher1)).EndInit();
